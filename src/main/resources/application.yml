@@ -1,0 +1,18 @@
+#jwt:
+# secret: 'jhshfhwjAJspaj923(1=2+as<a;soddpw#2UAYSb7*&uqw12[asd89aasy79172]as9io9123=3249'
+#this is use to verify our token
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/eeducate
+    password: asd321
+    username: root
+  jpa:
+    show-sql: true
+#   show all sql queries
+    hibernate:
+      ddl-auto: update
+#   create and update table in database
+      
